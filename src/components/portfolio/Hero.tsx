@@ -8,6 +8,13 @@ export const Hero = () => {
     }
   };
 
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
   return (
     <section
       id="hero"
@@ -46,12 +53,12 @@ export const Hero = () => {
             >
               Conoce más sobre mí
             </button>
-            <a
-              href="#contact"
+            <button
+              onClick={scrollToContact}
               className="border-2 border-blue-400 text-blue-400 hover:bg-blue-400 hover:text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105"
             >
               Contáctame
-            </a>
+            </button>
           </div>
         </div>
 

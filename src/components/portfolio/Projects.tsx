@@ -44,6 +44,7 @@ export const Projects = () => {
       status: "Público",
       company: "Proyecto Personal",
       isPrivate: false,
+      githubLink: "https://github.com/Dgaspar554/RickAndMorty",
     },
     {
       title: "Inventario de Productos",
@@ -53,6 +54,7 @@ export const Projects = () => {
       status: "Público",
       company: "Proyecto Personal",
       isPrivate: false,
+      githubLink: "https://github.com/Dgaspar554/inventoryWeb",
     },
     {
       title: "ToDoApp",
@@ -62,6 +64,7 @@ export const Projects = () => {
       status: "Público",
       company: "Proyecto Personal",
       isPrivate: false,
+      githubLink: "https://github.com/Dgaspar554/ToDoApp",
     },
     {
       title: "MexicoDivisas",
@@ -71,8 +74,16 @@ export const Projects = () => {
       status: "Público",
       company: "Proyecto Personal",
       isPrivate: false,
+      githubLink: "https://github.com/Dgaspar554/mexicoDivisas",
     },
   ];
+
+  const scrollToContact = () => {
+    const contactSection = document.getElementById("contact");
+    if (contactSection) {
+      contactSection.scrollIntoView({ behavior: "smooth" });
+    }
+  };
 
   return (
     <section id="projects" className="py-20 bg-slate-800/50">
@@ -131,7 +142,8 @@ export const Projects = () => {
                 </div>
               ) : (
                 <a
-                  href="#"
+                  target="_blank"
+                  href={project.githubLink || "#"}
                   className="inline-flex items-center text-blue-400 hover:text-blue-300 transition-colors"
                 >
                   <Github className="w-4 h-4 mr-2" />
@@ -176,12 +188,12 @@ export const Projects = () => {
             </div>
           </div>
 
-          <a
-            href="#contact"
+          <button
+            onClick={scrollToContact}
             className="bg-gradient-to-r from-blue-600 to-purple-600 hover:from-blue-700 hover:to-purple-700 text-white px-8 py-3 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 inline-block"
           >
             Solicitar referencias de proyectos
-          </a>
+          </button>
         </div>
       </div>
     </section>
