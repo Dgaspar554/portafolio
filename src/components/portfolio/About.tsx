@@ -10,21 +10,15 @@ export const About = () => {
         <div className="grid lg:grid-cols-2 gap-12 items-center">
           <div className="space-y-6">
             <h3 className="text-2xl font-semibold text-blue-400 mb-4">
-              Objetivo Profesional
+              Perfil Profesional
             </h3>
             <p className="text-gray-300 leading-relaxed text-lg">
-              Consolidarme como desarrollador Full Stack en entornos web y
-              móviles, aprovechando mi experiencia en Front-end (React.js,
-              Angular, React Native) y Back-end (Node.js, Yii, Phalcon,
-              Laravel). Cuento con sólidos conocimientos en bases de datos
-              relacionales y NoSQL (SQL, MongoDB), así como en control de
-              versiones con Git. Mi enfoque está en crear soluciones eficientes,
-              escalables y orientadas a la experiencia del usuario.
-            </p>
-            <p className="text-gray-300 leading-relaxed text-lg">
-              Me comprometo a aportar soluciones innovadoras y eficientes que
-              optimicen la experiencia del usuario y potencien el crecimiento
-              del negocio.
+              Ingeniero Electrónico con más de 3 años de experiencia
+              desarrollando aplicaciones web y móviles. Experiencia en Angular,
+              React, Node.js, PHP, Docker, SQL y MongoDB. He participado en el
+              desarrollo de plataformas e-commerce, sistemas administrativos y
+              APIs REST, trabajando bajo metodologías ágiles (Scrum) y
+              utilizando Git, Docker y Jira.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6 mt-8">
