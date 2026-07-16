@@ -1,4 +1,4 @@
-import { Mail, Linkedin, Github } from "lucide-react";
+import { Mail, Linkedin, Github, Phone, MapPin, Globe } from "lucide-react";
 import { useState } from "react";
 import { toast } from "sonner";
 import emailjs from "@emailjs/browser";
@@ -49,7 +49,7 @@ export const Contact = () => {
           <div className="w-24 h-1 bg-gradient-to-r from-blue-400 to-purple-400 mx-auto rounded-full"></div>
           <p className="text-gray-300 mt-6 text-lg max-w-3xl mx-auto">
             ¿Interesado en trabajar juntos? No dudes en contactarme. Estoy
-            siempre abierto a nuevas oportunidades y desafíos emocionantes.
+            siempre abierto a nuevas oportunidades en desarrollo web y móvil.
           </p>
         </div>
 
@@ -59,6 +59,16 @@ export const Contact = () => {
             <h3 className="text-2xl font-bold text-white mb-8">Conectemos</h3>
 
             <div className="space-y-6 mb-8">
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-cyan-500/20 rounded-full flex items-center justify-center mr-4">
+                  <Phone className="w-6 h-6 text-cyan-400" />
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold">Teléfono</h4>
+                  <p className="text-gray-300">(+57) 320 873 4451</p>
+                </div>
+              </div>
+
               <div className="flex items-center">
                 <div className="w-12 h-12 bg-blue-500/20 rounded-full flex items-center justify-center mr-4">
                   <Mail className="w-6 h-6 text-blue-400" />
@@ -80,12 +90,32 @@ export const Contact = () => {
               </div>
 
               <div className="flex items-center">
+                <div className="w-12 h-12 bg-amber-500/20 rounded-full flex items-center justify-center mr-4">
+                  <MapPin className="w-6 h-6 text-amber-400" />
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold">Ubicación</h4>
+                  <p className="text-gray-300">Zipaquirá, Colombia</p>
+                </div>
+              </div>
+
+              <div className="flex items-center">
                 <div className="w-12 h-12 bg-green-500/20 rounded-full flex items-center justify-center mr-4">
                   <Github className="w-6 h-6 text-green-400" />
                 </div>
                 <div>
                   <h4 className="text-white font-semibold">GitHub</h4>
                   <p className="text-gray-300">github.com/Dgaspar554</p>
+                </div>
+              </div>
+
+              <div className="flex items-center">
+                <div className="w-12 h-12 bg-pink-500/20 rounded-full flex items-center justify-center mr-4">
+                  <Globe className="w-6 h-6 text-pink-400" />
+                </div>
+                <div>
+                  <h4 className="text-white font-semibold">Portafolio</h4>
+                  <p className="text-gray-300">dgaspar554.github.io/portafolio</p>
                 </div>
               </div>
             </div>
@@ -98,8 +128,8 @@ export const Contact = () => {
                 <li>• Experiencia comprobada en desarrollo Full Stack</li>
                 <li>• Compromiso con la calidad y mejores prácticas</li>
                 <li>• Capacidad de adaptación a nuevas tecnologías</li>
-                <li>• Excelentes habilidades de comunicación</li>
-                <li>• Enfoque en resultados y optimización</li>
+                <li>• Trabajo bajo metodologías Scrum y Kanban</li>
+                <li>• Enfoque en resultados, escalabilidad y optimización</li>
               </ul>
             </div>
           </div>
@@ -201,8 +231,8 @@ export const Contact = () => {
         {/* Footer */}
         <div className="mt-16 pt-8 border-t border-slate-700 text-center">
           <p className="text-gray-400">
-            © 2024 - Desarrollador Full Stack. Construido con React y Tailwind
-            CSS.
+            © 2026 - Daniel Alejandro Gaspar Montaño. Construido con React y
+            Tailwind CSS.
           </p>
         </div>
       </div>

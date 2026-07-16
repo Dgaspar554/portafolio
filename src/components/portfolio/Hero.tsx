@@ -37,14 +37,14 @@ export const Hero = () => {
           <h1 className="text-4xl sm:text-6xl lg:text-7xl font-bold text-white mb-6">
             <span className="block">Hola, soy</span>
             <span className="block bg-gradient-to-r from-blue-400 to-purple-400 bg-clip-text text-transparent">
-              Desarrollador Full Stack
+              Daniel Gaspar
             </span>
           </h1>
           <p className="text-xl sm:text-2xl text-gray-300 mb-8 max-w-3xl mx-auto leading-relaxed">
-            Ingeniero enfocado en el desarrollo web y móvil, con experiencia en
-            tecnologías como React.js, Angular, React Native, Node.js y PHP.
-            Apasionado por crear soluciones modernas, eficientes y orientadas a
-            la experiencia del usuario.
+            Ingeniero Electrónico y Desarrollador Full Stack con más de 3 años
+            de experiencia en desarrollo web y móvil con Angular, React, React
+            Native, Node.js y PHP, construyendo soluciones escalables, de alto
+            rendimiento y enfocadas en la experiencia del usuario.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
             <button

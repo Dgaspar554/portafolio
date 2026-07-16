@@ -52,7 +52,7 @@ export const Navigation = () => {
         <div className="flex justify-between items-center h-16">
           <div className="flex-shrink-0">
             <span className="text-xl font-bold text-white">
-              Portafolio - Daniel Gaspar
+              Daniel Gaspar Montaño
             </span>
           </div>
 

@@ -4,19 +4,19 @@ export const Education = () => {
       title: "Node.js de cero a experto",
       platform: "Udemy",
       description:
-        "Desarrollo de aplicaciones web y API utilizando Node.js y su ecosistema",
+        "Desarrollo de aplicaciones web y APIs utilizando Node.js y su ecosistema",
     },
     {
       title: "React.js de cero a experto",
       platform: "Udemy",
       description:
-        "Desarrollo frontend con React.js, CSS y HTML, conexión con APIs y backend",
+        "Fortalecimiento de habilidades frontend con React.js, CSS y HTML, conectando backend y frontend mediante APIs",
     },
     {
       title: "Procesamiento de señales en Matlab",
       platform: "Curso Académico",
       description:
-        "Conceptos y técnicas para el procesamiento de señales con Matlab",
+        "Comprensión de conceptos y técnicas de procesamiento de señales con aplicaciones prácticas en Matlab",
     },
   ];
 
@@ -46,14 +46,15 @@ export const Education = () => {
   ];
 
   const academicCourses = [
-    "Lógica de programación y orientación a objetos", // Base de programación
-    "Estructuras de datos y algoritmos", // Optimización y lógica
-    "Bases de datos", // Manejo de datos persistentes
-    "Ingeniería de software", // Metodologías y buenas prácticas
-    "Sistemas operativos", // Gestión de recursos y procesos
-    "Gestión de proyectos", // Metodologías ágiles y gestión de equipos
-    "Seguridad informática", // Prácticas de seguridad
-    "Redes de computadoras", // Comunicación y protocolos
+    "Cálculos avanzados",
+    "Análisis de señales y sistemas",
+    "Control automatizado",
+    "Electrónica digital y analógica",
+    "Diseño de líneas y antenas",
+    "Generación y distribución eléctrica",
+    "Lógica de programación y orientación a objetos",
+    "Comunicaciones y telecomunicaciones",
+    "Electrónica de potencia",
   ];
 
   return (

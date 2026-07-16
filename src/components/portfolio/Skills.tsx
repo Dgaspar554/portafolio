@@ -1,17 +1,24 @@
 export const Skills = () => {
   const technicalSkills = [
-    { name: "React.js", level: 92, category: "Frontend" },
-    { name: "Angular", level: 80, category: "Frontend" },
+    { name: "Angular 18", level: 84, category: "Frontend" },
+    { name: "AngularJS", level: 79, category: "Frontend" },
+    { name: "React.js", level: 90, category: "Frontend" },
+    { name: "JavaScript (ES6+)", level: 93, category: "Programming" },
+    { name: "TypeScript", level: 86, category: "Programming" },
+    { name: "HTML5", level: 94, category: "Frontend" },
+    { name: "CSS3", level: 88, category: "Frontend" },
     { name: "React Native", level: 85, category: "Mobile" },
     { name: "Node.js", level: 90, category: "Backend" },
-    { name: "Laravel", level: 78, category: "Backend" },
-    { name: "PHP", level: 88, category: "Backend" },
-    { name: "JavaScript", level: 94, category: "Programming" },
-    { name: "TypeScript", level: 82, category: "Programming" },
+    { name: "PHP", level: 87, category: "Backend" },
+    { name: "Yii", level: 75, category: "Backend" },
+    { name: "Laravel", level: 80, category: "Backend" },
+    { name: "Phalcon", level: 74, category: "Backend" },
     { name: "SQL", level: 89, category: "Database" },
-    { name: "MongoDB", level: 80, category: "Database" },
+    { name: "MongoDB", level: 82, category: "Database" },
+    { name: "Docker", level: 81, category: "Tools" },
     { name: "Git", level: 91, category: "Tools" },
-    { name: "Matlab", level: 60, category: "Tools" },
+    { name: "Jira", level: 84, category: "Tools" },
+    { name: "Postman", level: 86, category: "Tools" },
   ];
 
   const softSkills = [
@@ -53,30 +60,22 @@ export const Skills = () => {
     },
     {
       category: "DevOps",
-      skills: ["CI/CD", "Control de versiones (Git)"],
+      skills: ["Docker", "CI/CD", "Control de versiones (Git)"],
     },
     {
-      category: "Seguridad Web",
+      category: "APIs y Arquitectura",
       skills: [
-        "Mejores prácticas de seguridad",
-        "Protección de endpoints",
-        "Validación de entradas",
+        "Diseño e implementación de APIs REST",
+        "Integración de pasarelas de pago",
+        "Arquitectura escalable",
       ],
     },
     {
-      category: "Optimización",
+      category: "Calidad y Rendimiento",
       skills: [
-        "Mejora de rendimiento",
-        "Optimización UX",
-        "Minimización de carga",
-      ],
-    },
-    {
-      category: "Testing",
-      skills: [
-        "Pruebas de estabilidad",
-        "Pruebas de escalabilidad",
-        "Debugging y corrección",
+        "Optimización de consultas SQL y MongoDB",
+        "Buenas prácticas de seguridad",
+        "Debugging y mejora de estabilidad",
       ],
     },
   ];
@@ -160,7 +159,7 @@ export const Skills = () => {
               </h4>
               <div className="space-y-3 text-gray-300">
                 {additionalCompetencies.map((competency, index) => (
-                  <p>
+                  <p key={index}>
                     • <strong>{competency.category}</strong>{" "}
                     {competency.skills.join(", ")}
                   </p>

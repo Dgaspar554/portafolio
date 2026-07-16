@@ -13,12 +13,13 @@ export const About = () => {
               Perfil Profesional
             </h3>
             <p className="text-gray-300 leading-relaxed text-lg">
-              Ingeniero Electrónico con más de 3 años de experiencia
-              desarrollando aplicaciones web y móviles. Experiencia en Angular,
-              React, Node.js, PHP, Docker, SQL y MongoDB. He participado en el
-              desarrollo de plataformas e-commerce, sistemas administrativos y
-              APIs REST, trabajando bajo metodologías ágiles (Scrum) y
-              utilizando Git, Docker y Jira.
+              Ingeniero Electrónico y Desarrollador Full Stack con más de 3
+              años de experiencia en el desarrollo de aplicaciones web y
+              móviles utilizando Angular, React, React Native, Node.js y PHP.
+              Experiencia en plataformas e-commerce, sistemas
+              administrativos y APIs REST, aplicando metodologías ágiles
+              (Scrum/Kanban) y buenas prácticas para construir soluciones
+              escalables y de alto rendimiento.
             </p>
 
             <div className="grid sm:grid-cols-2 gap-6 mt-8">
@@ -26,7 +27,7 @@ export const About = () => {
                 <h4 className="text-blue-400 font-semibold mb-2">Idiomas</h4>
                 <ul className="text-gray-300 space-y-1">
                   <li>• Español (Nativo)</li>
-                  <li>• Inglés (Intermedio B2)</li>
+                  <li>• Inglés (Intermedio)</li>
                 </ul>
               </div>
               <div className="bg-slate-700/50 p-6 rounded-lg">
@@ -52,12 +53,13 @@ export const About = () => {
                       Frontend
                     </h5>
                     <ul className="text-gray-300 text-sm space-y-1 list-disc list-inside">
+                      <li>Angular 18</li>
+                      <li>AngularJS</li>
                       <li>React.js</li>
                       <li>React Native</li>
-                      <li>Angular</li>
+                      <li>JavaScript (ES6+)</li>
                       <li>TypeScript</li>
-                      <li>Tailwind CSS</li>
-                      <li>Bootstrap</li>
+                      <li>HTML5 / CSS3</li>
                     </ul>
                   </div>
                   <div>
@@ -66,9 +68,10 @@ export const About = () => {
                     </h5>
                     <ul className="text-gray-300 text-sm space-y-1 list-disc list-inside">
                       <li>Node.js</li>
+                      <li>PHP</li>
+                      <li>Yii</li>
                       <li>Laravel</li>
                       <li>Phalcon</li>
-                      <li>Yii2</li>
                       <li>Express.js</li>
                     </ul>
                   </div>
@@ -79,6 +82,7 @@ export const About = () => {
                     <ul className="text-gray-300 text-sm space-y-1 list-disc list-inside">
                       <li>MySQL / MariaDB</li>
                       <li>PostgreSQL</li>
+                      <li>SQL</li>
                       <li>MongoDB</li>
                     </ul>
                   </div>
@@ -87,8 +91,10 @@ export const About = () => {
                       Herramientas y Metodologías
                     </h5>
                     <ul className="text-gray-300 text-sm space-y-1 list-disc list-inside">
-                      <li>Git & GitHub</li>
-                      <li>CI/CD (GitHub Actions)</li>
+                      <li>Docker</li>
+                      <li>Git</li>
+                      <li>Jira</li>
+                      <li>Postman</li>
                       <li>Scrum / Kanban</li>
                       <li>Figma (Diseño UI/UX)</li>
                     </ul>
