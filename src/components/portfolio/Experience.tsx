@@ -1,37 +1,26 @@
 export const Experience = () => {
   const experiences = [
     {
-      title: "Desarrollador Junior",
-      company: "Gestión de Seguridad Electrónica",
-      location: "Bogotá, Colombia",
-      period: "Jun 2025 – Actualidad",
-      description: [
-        "Desarrollo y mantenimiento de aplicaciones web utilizando AngularJS y Angular 18, enfocadas en escalabilidad, usabilidad y rendimiento.",
-        "Desarrollo y mantenimiento de servicios backend con Node.js, implementando lógica de negocio, integración con APIs y procesamiento de datos.",
-        "Uso de Docker para la creación y ejecución de entornos de desarrollo, facilitando la estandarización, despliegue y ejecución de aplicaciones.",
-        "Gestión de tareas y seguimiento de avances mediante JIRA, con documentación técnica detallada en tickets y control continuo del flujo de trabajo.",
-        "Aplicación de buenas prácticas para mejorar la legibilidad, mantenibilidad y calidad del código.",
-        "Participación en metodologías ágiles (Scrum) mediante reuniones diarias de seguimiento, revisión de avances y cumplimiento de cronogramas.",
-      ],
-      achievements: [],
-      isCurrentJob: true,
-    },
-    {
       title: "Desarrollador Web y Móvil",
       company: "TRADEBOG S.A.S.",
       location: "Bogotá, Colombia",
-      period: "Enero 2024 – Junio 2025",
+      period: "Enero 2024 – Actualidad",
       description: [
         "Desarrollo Full Stack: Creación y mantenimiento de Zione Shop y COVOX, incluyendo desarrollo completo de plataformas web, implementación de pagos, suscripciones, gestión de productos y optimización de UX.",
+        "Desarrollo y mantenimiento de aplicaciones web utilizando AngularJS y Angular 18, enfocadas en escalabilidad, usabilidad y rendimiento.",
+        "Desarrollo y mantenimiento de servicios backend con Node.js, implementando lógica de negocio, integración con APIs y procesamiento de datos.",
         "Administración y Bases de Datos: Desarrollo de paneles administrativos y gestión de proveedores usando PHP y JavaScript. Diseño y administración de bases de datos SQL y MongoDB.",
+        "Uso de Docker para la creación y ejecución de entornos de desarrollo, facilitando la estandarización, despliegue y ejecución de aplicaciones.",
+        "Gestión de tareas y seguimiento de avances mediante JIRA, con documentación técnica detallada en tickets y control continuo del flujo de trabajo.",
+        "Aplicación de buenas prácticas para mejorar la legibilidad, mantenibilidad y calidad del código.",
         "Optimización y Seguridad: Aplicación de buenas prácticas en seguridad web, optimización del rendimiento y pruebas de estabilidad.",
-        "Gestión de Proyectos y Metodologías Ágiles: Trabajo bajo metodologías Scrum/Kanban, control de versiones con Git y flujos CI/CD.",
+        "Gestión de Proyectos y Metodologías Ágiles: Trabajo bajo metodologías Scrum/Kanban, control de versiones con Git y flujos CI/CD; participación en reuniones diarias de seguimiento, revisión de avances y cumplimiento de cronogramas.",
       ],
       achievements: [
         "En Zione Shop, optimicé la UX y el rendimiento, aumentando la calificación de la app en más de una estrella en Play Store.",
         "En COVOX, desarrollé un sistema escalable para suscripciones y procesamiento de transacciones.",
       ],
-      isCurrentJob: false,
+      isCurrentJob: true,
     },
     {
       title: "Desarrollador Web",
